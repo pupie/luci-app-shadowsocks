@@ -88,6 +88,12 @@ msgstr "未运行"
 msgid "NULL - As Global Proxy"
 msgstr "留空 - 作为全局代理"
 
+msgid "Obfs"
+msgstr "混淆"
+
+msgid "Obfs Param"
+msgstr "混淆参数"
+
 msgid "Passes additional arguments to iptables. Use with care!"
 msgstr "传递到iptables的额外参数。小心使用！"
 
@@ -102,6 +108,12 @@ msgstr "插件名称"
 
 msgid "Port Forward"
 msgstr "端口转发"
+
+msgid "Potocol"
+msgstr "协议"
+
+msgid "Protocol Param"
+msgstr "协议参数"
 
 msgid "Proxy port numbers %s only"
 msgstr "仅代理 %s 端口"
