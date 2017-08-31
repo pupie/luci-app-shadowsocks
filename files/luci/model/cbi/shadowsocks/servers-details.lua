@@ -44,6 +44,8 @@ local obfs = {
 }
 m = Map(shadowsocks, "%s - %s" %{translate("ShadowSocks"), translate("Edit Server")})
 m.redirect = luci.dispatcher.build_url("admin/services/shadowsocks/servers")
+m.sid = sid
+m.template = "shadowsocks/servers-details"
 
 if m.uci:get(shadowsocks, sid) ~= "servers" then
 	luci.http.redirect(m.redirect)
