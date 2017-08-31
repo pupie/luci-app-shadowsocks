@@ -88,11 +88,15 @@ o.rmempty = false
 o = s:option(ListValue, "protocol", translate("Potocol"))
 for _, v in ipairs(protocol) do o:value(v, v:upper()) end
 o.rmempty = false
+
 o = s:option(Value, "protocol_param", translate("Protocol Param"))
+
 o = s:option(ListValue, "obfs", translate("Obfs"))
 for _, v in ipairs(obfs) do o:value(v, v:upper()) end
 o.rmempty = false
+
 o = s:option(Value, "obfs_param", translate("Obfs Param"))
+
 o = s:option(Value, "plugin", translate("Plugin Name"))
 o.placeholder = "eg: obfs-local"
 
